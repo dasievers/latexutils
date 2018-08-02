@@ -1,4 +1,4 @@
-# latex-tables
-Quickly convert Excel spreadsheet tables into LaTeX script for insertion into a working document. Creating large tables and tedious updating of values after changes in the data are easy to handle using this simple script.
-
-This Python script first must be edited with your own information in the SETUP INFORMATION section. The file path, spreadsheet sheet name, start/end rows, etc in addition to a list of column types msut be given. One example is given in the script. Execution of the script will produce a text file that you can copy/paste from into your own LaTeX document.
+# LaTeX Utilities
+This project was created to provide easy import of datasets into LaTeX document scripts.
+## tabular
+Quickly convert Excel spreadsheet tables into LaTeX script for insertion into a working document. Creating large tables and tedious updating of values after changes in the data are easy to handle using this function call. Simply copy the text from the python console into your LaTeX editor, or use the output text file (optional). The module's script can be directly executed with the example code and external excel file provided.
