@@ -1,0 +1,127 @@
+# project-specific ignores
+ignition_login_readonly.txt
+IO Mapping 6-9-16.xlsx
+
+# accessory latex files, JJS 6/2/14
+*.bbl
+*.blg
+*.ilg
+*.nlo
+*.nls
+
+*.fdb_latexmk
+MS_FY16Q3/milestone.fls
+*.fls
+
+manuscript_2016/aerobic_CFD_manuscript_ces.pdf
+manuscript_2016/TEA/.ipynb_checkpoints/excelcharts-checkpoint.ipynb
+
+# ignore primary latex outputs
+main.pdf
+diff.pdf
+
+# emacs-generated folder
+auto/
+
+# numpy data files
+*.npy
+*.npz
+
+
+###############################
+*.log
+*.lof
+*.aux
+*.fff
+*.synctex.gz
+*.spl
+
+###############################
+.svn
+.bzr
+.hgsvn
+*.komodoproject
+.hg
+*.wpr
+*.sublime-*
+
+#build and log files
+###############################
+*.so
+*.o
+*.pyc
+*.pyo
+*.out
+*.log
+*.tmp
+
+# swap files
+###############################
+*.swp
+
+#Apple / Mac stuff
+###############################
+.DS_Store
+._*
+.Trash
+
+#crazy files
+###############################
+META
+build/
+tmp/
+junk
+trash
+
+#  Binary stuff I don't want
+#  in a repo.
+###############################
+*.exe
+*.zip
+*.tgz
+*.tar
+*.bzip
+*.tbz
+*.gz
+*.bin
+*.zexp
+
+# obvious backup files
+###############################
+*.orig
+*.bak
+*~
+~*
+
+#database files
+###############################
+*.db
+
+# plone/zope stuff
+#########################
+fake-eggs
+develop-eggs
+var/*
+eggs
+parts/*
+opt
+bin
+*egg-info
+.installed.cfg
+adminPassword.txt
+picked-versions.cfg
+*.mo
+*.egg
+*.EGG
+*.EGG-INFO
+build
+downloads
+dist
+.hg
+.bzr
+.svn
+*.pyc
+*.pyo
+*.tmp*
+### data files
+*.dat
