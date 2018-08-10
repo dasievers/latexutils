@@ -14,19 +14,25 @@ def tabular(path, sheet=0, columns=None, formats=None, startrow=0, endskip=0, ex
     
     Parameters
     ----------
-    path : path to excel file
+    path : str
+        Path to excel file.
     
     Optional Parameters
     -------------------
-    sheet : int or str, sheet name in spreadsheet
-    columns : array, column indices to import. If None, import all columns.
+    sheet : int or str
+        Sheet index or name in spreadsheet.
+    columns : array
+        Column indices to import. If None, import all columns.
     formats : multiple options:
-              None: automatically format output (default for floats is sci)
-              int: row number to use for importing definition of each column format
-              list: definition of each column format e.g. ['%s', '%.2e']
-    startrow : int, row to start table at
-    endskip : int, lines to omit at end of sheet
-    export : bool, export text to file
+        None: Automatically format output (default for floats is sci).
+        int: Row number to use for importing definition of each column format.
+        list: Definition of each column format e.g. ['%s', '%.2e'].
+    startrow : int
+        Row to start table at.
+    endskip : int
+        Lines to omit at end of sheet.
+    export : bool
+        Export text to file.
     """
     if formats==None:  # auto-select output formatting based on dtypes
         probe = pd.read_excel(path, sheet_name=sheet, usecols=columns, skiprows=startrow, skipfooter=endskip)
