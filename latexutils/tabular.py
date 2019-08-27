@@ -8,6 +8,9 @@ def tabular(path, sheet=0, columns=None, formats=None, startrow=0, endskip=0, ex
     into your LaTeX document.
     The resulting string is printed and can be optionally saved to a text file.
     
+    Recommended packages include usepackage{siunitx} and usepackage{booktabs}
+    with column type 'S' to align decimal places on vertical axis.
+    
     The header output here usually requires some clean up within LaTeX, but the
     initial creation of the table and subsequent updates to values is where
     this tool really shines.
@@ -52,6 +55,8 @@ def tabular(path, sheet=0, columns=None, formats=None, startrow=0, endskip=0, ex
     linelist = []
     
     # build the header
+    ##TODO add functionality for multi-line headers
+    ##TODO add functionality to wrap headers in protectors for `S` column modes
     line = ''
     for i, name in enumerate(dataset.keys()):
         line += name
@@ -109,7 +114,7 @@ if __name__ == '__main__':
     path = 'tables.xlsx'
     formats = 0
     startrow = 1
-    tabular(path, formats=formats, startrow=startrow, export=True)
+    tabular(path, formats=formats, startrow=startrow, export=False)
 
 
 

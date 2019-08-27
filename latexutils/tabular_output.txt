@@ -1,0 +1,14 @@
+Exp ID & Liquor Source & Peptides & Abs. Pressure (kPa) & Temp. (C) & Starting pH & Starting Total Conc. (g/L) & t (h) & kx (1/min) & kg (1/min) \\
+8 & synthetic & none & 81 & 98.7 & 3.78 & 521 & 24 & \num{5.87e-05} & \num{2.05e-05} \\
+9 & synthetic & added & 81 & 99.0 & 3.85 & 520 & 6 & \num{4.84e-04} & \num{1.59e-04} \\
+13 & biomass & native & 81 & 95.7 & 2.91 & 100 & 24 & \num{1.46e-06} & \num{5.65e-06} \\
+12 & biomass & native & 81 & 95.3 & 4.78 & 101 & 24 & \num{5.66e-05} & \num{1.53e-05} \\
+15 & biomass & native & 81 & 96.8 & 4.79 & 102 & 24 & \num{5.57e-05} & \num{1.90e-05} \\
+18 & biomass & native & 81 & 96.7 & 4.78 & 102 & 24 & \num{5.27e-05} & \num{1.40e-05} \\
+14 & biomass & native & 30 & 70.0 & 4.82 & 101 & 24 & \num{2.40e-05} & \num{2.35e-05} \\
+17 & biomass & native & 81 & 100.0 & 3.17 & 533 & 6 & \num{7.15e-04} & \num{2.36e-04} \\
+16 & biomass & native & 81 & 99.5 & 4.78 & 549 & 6 & \num{1.06e-03} & \num{3.20e-04} \\
+22 & biomass & native & 47 & 83.4 & 2.93 & 562 & 6 & \num{6.81e-05} & \num{8.39e-13} \\
+20 & biomass & native & 47 & 85.3 & 4.87 & 546 & 6 & \num{2.25e-04} & \num{7.83e-05} \\
+21 & biomass & native & 30 & 73.5 & 2.72 & 553 & 6 & \num{3.02e-05} & \num{2.04e-06} \\
+19 & biomass & native & 30 & 73.5 & 5.04 & 560 & 6 & \num{1.65e-04} & \num{6.91e-05} \\
