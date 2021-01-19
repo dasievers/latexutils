@@ -48,7 +48,7 @@ def tabular(path, sheet=0, columns=None, formats=None, tablestart=0,
         These will be passed to the pandas read_excel when importing the table.
         May be necessary if needing to use skipfooter, etc.
         
-    *See more info on this in this package's decimal centering tips file.
+    *See more info on this in this package's decimal centering tips in the readme.
     """
     dataset = pd.read_excel(path, sheet_name=sheet, skiprows=tablestart, 
                             usecols=columns, **kwargs)
