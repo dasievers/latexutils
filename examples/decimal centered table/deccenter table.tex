@@ -1,0 +1,24 @@
+
+
+
+\documentclass{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{siunitx}	
+\newcommand{\dechead}[1]{\multicolumn{1}{c}{\text{#1}}}  % center align and protect header cell contents when using 'S' mode
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}
+\begin{tabular}{cSS}  % "S" = align values by decimal place
+Run & \dechead{Temperature (C)} & \dechead{Time (s)} \\
+1 & 50.0 & 25.0 \\
+2 & 2.50 & 320 \\
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+\endinput
