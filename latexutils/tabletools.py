@@ -3,7 +3,7 @@
 import pandas as pd
 
 def tabular(path, sheet=0, columns=None, formats=None, tablestart=0, 
-            headerend=None, dcwrapper='\dechead', save=False, **kwargs):
+            headerend=None, dcwrapper='', save=False, **kwargs):
     """
     Construct a string of text for LaTeX tables out of an excel file to copy/paste
     into your LaTeX document.
@@ -41,7 +41,8 @@ def tabular(path, sheet=0, columns=None, formats=None, tablestart=0,
         is to assume single-line header.
     dcwrapper : str
         Command name used to wrap header contents if decimal point centering format
-        is used ("S" defined columns)*. 
+        is used ("S" defined columns)*. If left empty string, braces will be added
+        to protect header contents.
     save : str
         Export text to file as specified.
     [extra kwargs]
