@@ -1,6 +1,6 @@
-Exp ID & Liquor & Peptides & Abs. Pressure & \dechead{Temp.} & \dechead{Starting} & Starting Total & \dechead{t} & kx & kg \\
- & Source &  &  &  & \dechead{pH} & Conc. &  &  &  \\
- &  &  & (kPa) & \dechead{(C)} &  & (g/L) & \dechead{(h)} & (1/min) & (1/min) \\
+Exp ID & Liquor & Peptides & Abs. Pressure & {Temp.} & {Starting} & Starting Total & {t} & kx & kg \\
+ & Source &  &  &  & {pH} & Conc. &  &  &  \\
+ &  &  & (kPa) & {(C)} &  & (g/L) & {(h)} & (1/min) & (1/min) \\
 8 & synthetic & none & 81 & 98.7 & 3.78 & 521 & 24 & \num{5.87e-05} & \num{2.05e-05} \\
 9 & synthetic & added & 81 & 99.0 & 3.85 & 520 & 6 & \num{4.84e-04} & \num{1.59e-04} \\
 13 & biomass & native & 81 & 95.7 & 2.91 & 100 & 24 & \num{1.46e-06} & \num{5.65e-06} \\
