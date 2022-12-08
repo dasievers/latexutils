@@ -13,7 +13,8 @@ def tabular(path, sheet=0, columns=None, formats=None, tablestart=0,
     The resulting string is printed and can be optionally saved to a text file.
 
     Recommended packages include 'booktabs' and 'siunitx' with column
-    type 'S' to center on decimal point where desired.
+    type 'S' to center on decimal point where desired. Only one is needed,
+    but both work together.
 
     The header output here usually requires some cleanup within LaTeX, but the
     initial creation of the table and subsequent updates to values are readily
