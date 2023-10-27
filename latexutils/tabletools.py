@@ -5,8 +5,11 @@ import pandas as pd
 # =============================================================================
 #
 # =============================================================================
-def tabular(path, sheet=0, columns=None, formats=None, tablestart=0,
-            headerend=None, dcwrapper='', save=False, **kwargs):
+def tabular(path, sheet=0, columns=None, formats=None, tablestart=0, headerend=None,
+            dcwrapper='',
+            linesepadd = None,
+            save=False,
+            **kwargs):
     """
     Construct a string of text for LaTeX tables out of an excel file to copy/paste
     into your LaTeX document.
@@ -146,6 +149,8 @@ def tabular(path, sheet=0, columns=None, formats=None, tablestart=0,
                 line += ' & '
         line = line.replace('nan', '')
         line += r' \\'
+        if linesepadd:
+            line += f' {linesepadd}'
         linelist.append(line)
 
     # combine lines
